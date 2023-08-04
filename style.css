@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+select,
+input{
+  line-height: inherit;
+}
+
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0ffc7;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 4vh;
+  margin-top: 2vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: #77ff5f;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #e2ffdd;
+  transition: 0.3s;
+  background-color: #77ff5f;
+  padding: 5px 10px ;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #00ff22;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Estilos CSS para a tabela */
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom:2px solid #edffe9;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #002007;
+  font-weight: bold;
+  border-radius: 10px 10px 0px 0px;
+}
+
+td {
+  font-weight: normal;
+}
+
+tr:hover {
+  background-color: #657f629d;
+}
+/* Estilos adicionais */
+
+.menu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.links{
+  width: 30%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.links a{
+  color: #84fad3;  
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.links a:hover {
+  background-color: #ffffff;
+  color: #093426;  
+}
+
+.caixa_form {
+  padding: 8vh;
+  width: 36%;
+  background-color: #1b3700;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.caixa_tabela {
+  padding: 6vh;
+  width: 80%;
+  color: #d8ffde;
+  background-color: #1b3700;
+  box-shadow: 0 0 1px rgb(157, 255, 111);
+  text-shadow: 0 0 1px rgb(157, 255, 111);
+  border-radius: 20px;
+}
+
+.excluir{
+  color: rgb(255, 40, 40);
+  font-weight: 600;
+}
+
+.alterar{
+  color: #80e1ff;
+  font-weight: 600;
+}
+
+spam{
+  color: #b60000;
+  background-color: #ffff21;
+  padding: 3px 7px 3px 7px;
+  border-radius: 7px;
+  text-decoration:underline ;
+  font-weight: 400;
+  font-size: smaller;
+}
